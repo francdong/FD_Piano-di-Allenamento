@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mia Pagina</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #e8e0d8;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .main-frame {
+            width: 700px;
+            max-width: 95vw;
+            background-color: #f5f0eb;
+            border: 4px solid #222;
+            border-radius: 12px;
+            padding: 30px 30px 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .n1 {
+            border: 3px solid #222;
+            border-radius: 8px;
+            padding: 24px 20px;
+            font-size: 2.4rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .n2 {
+            border: 3px solid #222;
+            border-radius: 8px;
+            padding: 20px;
+            min-height: 180px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(2px);
+            color: #1a1a1a;
+        }
+
+        .row-bottom {
+            display: flex;
+            gap: 20px;
+        }
+
+        .n3,
+        .n4 {
+            flex: 1;
+            border: 3px solid #222;
+            border-radius: 8px;
+            padding: 16px 14px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .n3 a,
+        .n4 a {
+            display: block;
+            color: #222;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .n3 a:hover,
+        .n4 a:hover {
+            text-decoration: underline;
+            color: #0055cc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-frame">
+
+        <div class="n1">n1</div>
+
+        <div class="n2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.<br>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse.<br>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+        </div>
+
+        <div class="row-bottom">
+            <div class="n3"><a href="#">martedì</a></div>
+            <div class="n4"><a href="#">venerdì</a></div>
+        </div>
+
+    </div>
+
+</body>
+</html>
