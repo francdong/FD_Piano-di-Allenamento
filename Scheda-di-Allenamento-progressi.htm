@@ -31,11 +31,13 @@
         }
 
         img {
-            width: 100%;
-            max-width: 100%;
-            height: auto;
+            max-width: 100%; /* L'immagine non supererà mai la larghezza del container */
+            width: auto;     /* La larghezza si adatta automaticamente */
+            height: auto;     /* Mantiene le proporzioni */
             border: 3px solid #222;
             border-radius: 8px;
+            display: block;
+            margin: 0 auto; /* Centra l'immagine orizzontalmente */
         }
     </style>
 </head>
